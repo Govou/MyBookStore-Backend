@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QRzZ93xmzM6b5ix4T0CCd3wFlwFRtrH7fqqk3lvfOU4m5IjNnGprRbRjGdN2mLzzLzVuhQjGSpp6+HrdZgN8PA==",
+  "dgSpecHash": "pZ8ceSKDpSDjxUMHjMnY/uoU/lMXHntRLNXIFBGmK5nOT5FTK9P0v3EYhke6MTHoPm97Mj47J3F3f5H5r6Ncgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\KehindeGuvoeke\\Documents\\PractiseDev\\Hahn Software Project\\MyBookStore.Backend\\MyBookStore.Core\\MyBookStore.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,7 @@
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.API\obj\Debug\net6.0\MyBookStore.API.csproj.AssemblyReference.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.API\obj\Debug\net6.0\MyBookStore.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.API\obj\Debug\net6.0\MyBookStore.API.AssemblyInfoInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.API\obj\Debug\net6.0\MyBookStore.API.AssemblyInfo.cs
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.API\obj\Debug\net6.0\MyBookStore.API.csproj.CoreCompileInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.API\obj\Debug\net6.0\MyBookStore.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.API\obj\Debug\net6.0\MyBookStore.API.MvcApplicationPartsAssemblyInfo.cache
