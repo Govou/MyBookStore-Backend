@@ -13,12 +13,14 @@ namespace MyBookStore.Domain.Entities
         public virtual Author Author { get; private set; }
         public virtual Publisher Publisher { get; private set; }
 
-        public Book(string title, Guid authorId, Guid publisherId, Publication publication)
+        public Book(string title, Guid authorId, Guid publisherId, Publication publication, Guid id, bool? isDeleted = null)
         {
             Title = title;
             AuthorId = authorId;
             PublisherId = publisherId;
             Publication = publication;
+            Id = id;
+            IsDeleted = isDeleted.HasValue ? isDeleted.Value : false;
         }
 
         protected Book()

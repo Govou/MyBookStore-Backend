@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using MyBookStore.Core.Interfaces;
-using MyBookStore.Domain.Entities;
+﻿using MyBookStore.Domain.Entities;
 
 namespace MyBookStore.Domain.Interfaces.Repositories
 {
-    public interface IBookRepository : IRepository<Book>
+    public interface IBookRepository
     {
         Task<bool> ExistsAsync(string title);
         Task<IEnumerable<Book>> GetAllAsync();
         Book GetById(Guid id);
-        void Delete(Guid id);
+        Task<bool> Delete(Guid id);
+        Task<bool> Create(Book book);
+        Task<bool> Update(Book book);
     }
 }

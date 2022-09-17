@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyBookStore.Application.DTOs.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace MyBookStore.Application.Publisher
 {
     public interface IPublisherService
     {
+        Task<ApiCommonResponse> GetAllPublishers();
     }
 }

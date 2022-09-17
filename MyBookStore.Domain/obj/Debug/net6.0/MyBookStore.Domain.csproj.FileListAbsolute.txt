@@ -1,0 +1,15 @@
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\bin\Debug\net6.0\MyBookStore.Domain.deps.json
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\bin\Debug\net6.0\MyBookStore.Domain.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\bin\Debug\net6.0\MyBookStore.Domain.pdb
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\bin\Debug\net6.0\MyBookStore.Core.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\bin\Debug\net6.0\MyBookStore.Core.pdb
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\MyBookStore.Domain.csproj.AssemblyReference.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\MyBookStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\MyBookStore.Domain.AssemblyInfoInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\MyBookStore.Domain.AssemblyInfo.cs
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\MyBookStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\MyBookStore.Domain.csproj.CopyComplete
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\MyBookStore.Domain.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\refint\MyBookStore.Domain.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\MyBookStore.Domain.pdb
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Domain\obj\Debug\net6.0\ref\MyBookStore.Domain.dll

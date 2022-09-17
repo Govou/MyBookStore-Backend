@@ -14,10 +14,6 @@ namespace MyBookStore.Infrastructure.Context
         public DbSet<Publisher> Publisher { get; set; }
         public DbSet<Book> Book { get; set; }
 
-        public BookStoreContext(DbContextOptions options) 
-            : base(options)
-        {
-        }
 
         protected readonly IConfiguration Configuration;
 
@@ -30,16 +26,33 @@ namespace MyBookStore.Infrastructure.Context
         {
             var mutableProperties = modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetProperties().Where(p => p.ClrType == typeof(string)));
 
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(BookStoreContext).Assembly); base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(BookStoreContext).Assembly);
+            
+            base.OnModelCreating(modelBuilder);
+
+
+            modelBuilder.Entity<Publisher>()
+           .HasData(
+               new Publisher("MichaelLuke"),
+               new Publisher("BrianKay"),
+               new Publisher("NeoLake"),
+               new Publisher("HammerRio")
+           );
+
+
+            modelBuilder.Entity<Author>()
+           .HasData(
+               new Author("Stephen John"),
+               new Author("John Jake"),
+               new Author("Paul Samuel"),
+               new Author("Barry Mark")
+           );
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //if (!optionsBuilder.IsConfigured)
-            //{
-
-            //}
             optionsBuilder.UseSqlServer(Configuration.GetConnectionString("DefaultDatabase"));
+            //optionsBuilder.UseInMemoryDatabase(databaseName: "DefaultDatabase");
         }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())

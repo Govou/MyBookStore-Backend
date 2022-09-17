@@ -9,8 +9,9 @@ namespace MyBookStore.Core.Entity
     public abstract class Entity : IEntity
     {
         public Guid Id { get; set; }
-        public DateTime Created { get; set; }
+        public DateTime Created { get; set; } = DateTime.Now;
         public DateTime? Updated { get; set; }
+        public bool IsDeleted { get; set; }
 
         protected Entity()
         {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9/lTZUaaN5oPKZyOFkImfPBXiHQZm2QOQxtoMyWBObFzK9jPFdQBx5tuuBckJDtyGhgc09uuvYH67/VW50WS2A==",
+  "dgSpecHash": "RACCshPYzk2wbmB7KyBh9yzIzbgTuqLNj8tTK8UBo8kG7+q8xGHp2dR71T7X53G9XuQ6An07EVyQJqHPu89Upw==",
   "success": true,
   "projectFilePath": "C:\\Users\\KehindeGuvoeke\\Documents\\PractiseDev\\Hahn Software Project\\MyBookStore.Backend\\MyBookStore.Infrastructure\\MyBookStore.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.9\\microsoft.entityframeworkcore.analyzers.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.9\\microsoft.entityframeworkcore.design.6.0.9.nupkg.sha512",
+    "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.9\\microsoft.entityframeworkcore.inmemory.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.9\\microsoft.entityframeworkcore.relational.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.9\\microsoft.entityframeworkcore.sqlserver.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.9\\microsoft.entityframeworkcore.tools.6.0.9.nupkg.sha512",

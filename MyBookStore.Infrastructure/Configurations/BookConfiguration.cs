@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using MyBookStore.Domain.Entities;
-using MyBookStore.Domain.Tests.Entities.Validators.Entities.ValueObjects;
+using MyBookStore.Domain.Entities.Validators.Entities.ValueObjects;
 
-namespace MyBookStore.Infra.Data.Configurations
+namespace MyBookStore.Infrastructure.Configurations
 {
     public class BookConfiguration : IEntityTypeConfiguration<Book>
     {

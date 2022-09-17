@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using MyBookStore.Domain.Entities;
+using MyBookStore.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

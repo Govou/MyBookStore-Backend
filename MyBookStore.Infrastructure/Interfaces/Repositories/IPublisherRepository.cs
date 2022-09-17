@@ -1,11 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using MyBookStore.Core.Interfaces;
-using MyBookStore.Domain.Entities;
+﻿using MyBookStore.Domain.Entities;
 
-namespace MyBookStore.Domain.Interfaces.Repositories
+namespace MyBookStore.Domain.Repositories
 {
-    public interface IPublisherRepository : IRepository<Publisher>
+    public interface IPublisherRepository
     {
         Task<bool> ExistsAsync(string name);
         Task<IEnumerable<Publisher>> GetAllAsync();
