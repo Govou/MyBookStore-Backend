@@ -88,7 +88,7 @@ namespace MyBookStore.Application.Book
         {
             var result = new ApiCommonResponse();
             var publication = new Publication(request.Edition, request.Year);
-            var book = new Domain.Entities.Book(null, Guid.NewGuid(), Guid.NewGuid(),publication, Guid.NewGuid());
+            var book = new Domain.Entities.Book(null, Guid.NewGuid(), Guid.NewGuid(),publication, request.Id);
             var created = await _repository.Update(book);
 
             if (created)
