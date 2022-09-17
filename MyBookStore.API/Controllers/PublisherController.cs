@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MyBookStore.Application.Publisher;
 
 namespace MyBookStore.API.Controllers
 {
@@ -7,43 +8,17 @@ namespace MyBookStore.API.Controllers
     [ApiController]
     public class PublisherController : ControllerBase
     {
-        private readonly ICommandHandler<CreatePublisherCommand> _createPublisherCommandHandler;
-        private readonly ICommandHandler<UpdatePublisherCommand> _updatePublisherCommandHandler;
-        private readonly IPublisherQueries _publisherQueries;
 
-        public PublisherController(ICommandHandler<CreatePublisherCommand> createPublisherCommandHandler,
-            ICommandHandler<UpdatePublisherCommand> updatePublisherCommandHandler,
-            IPublisherQueries publisherQueries)
+        private readonly IPublisherService _publisherService;
+        public PublisherController(IPublisherService publisherService)
         {
-            _createPublisherCommandHandler = createPublisherCommandHandler;
-            _updatePublisherCommandHandler = updatePublisherCommandHandler;
-            _publisherQueries = publisherQueries;
+            _publisherService = publisherService;
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(_publisherQueries.GetAllAsync().Result);
-        }
-
-        [HttpPost]
-        public IActionResult Post(CreatePublisherCommand command)
-        {
-            var result = _createPublisherCommandHandler.Handle(command);
-            if (result.Success)
-                return Ok(command);
-
-            return BadRequest(result.Errors);
-        }
-
-        [HttpPut]
-        public IActionResult Put(UpdatePublisherCommand command)
-        {
-            var result = _updatePublisherCommandHandler.Handle(command);
-            if (result.Success)
-                return Ok(command);
-
-            return BadRequest(result.Errors);
+            return Ok(await _publisherService.GetAllPublishers());
         }
     }
 }

@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyBookStore.Application.Book;
-using MyBookStore.Core.Interfaces;
-using MyBookStore.Domain.Commands.Book;
+using MyBookStore.Application.DTOs.Book;
 
 namespace MyBookStore.API.Controllers
 {
@@ -10,66 +9,40 @@ namespace MyBookStore.API.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-        private readonly ICommandHandler<CreateBookCommand> _createBookCommandHandler;
-        private readonly ICommandHandler<UpdateBookCommand> _updateBookCommandHandler;
-        private readonly ICommandHandler<DeleteBookCommand> _deleteBookCommandHandler;
-        private readonly IBookQueries _bookQueries;
-
-        public BookController(ICommandHandler<CreateBookCommand> createBookCommandHandler,
-            ICommandHandler<UpdateBookCommand> updateBookCommandHandler,
-            ICommandHandler<DeleteBookCommand> deleteBookCommandHandler,
-            IBookQueries bookQueries)
+        IBookService _bookService;
+        public BookController(IBookService bookService)
         {
-            _createBookCommandHandler = createBookCommandHandler;
-            _updateBookCommandHandler = updateBookCommandHandler;
-            _deleteBookCommandHandler = deleteBookCommandHandler;
-            _bookQueries = bookQueries;
+            _bookService = bookService;
         }
 
-        [HttpGet]
-        public IActionResult Get()
+        [HttpGet("GetAllBooks")]
+        public async Task<IActionResult> Get()
         {
-            return Ok(_bookQueries.GetAllAsync().Result);
+            return Ok(await _bookService.GetAllBooks());
         }
 
-        [HttpGet]
-        [Route("{text}")]
-        public IActionResult Get(string text)
+        [HttpGet("GetBookById/{id}")]
+        public async Task<IActionResult> Get(Guid id)
         {
-            return Ok(_bookQueries.GetByTextAsync(text).Result);
+            return Ok(await _bookService.GetBookById(id));
         }
 
-        [HttpPost]
-        public IActionResult Post(CreateBookCommand command)
+        [HttpPost("CreateBook")]
+        public async Task<IActionResult> Post(CreateBookDTO request)
         {
-            var result = _createBookCommandHandler.Handle(command);
-
-            if (result.Success)
-                return Ok(command);
-
-            return BadRequest(result.Errors);
+            return Ok(await _bookService.CreateBook(request));
         }
 
-        [HttpPut]
-        public IActionResult Put(UpdateBookCommand command)
+        [HttpPut("UpdateBook")]
+        public async Task<IActionResult> Put(UpdateBookDTO request)
         {
-            var result = _updateBookCommandHandler.Handle(command);
-
-            if (result.Success)
-                return Ok(command);
-
-            return BadRequest(result.Errors);
+            return Ok(await _bookService.UpdateBook(request));
         }
 
-        [HttpDelete]
-        public IActionResult Delete(DeleteBookCommand command)
+        [HttpDelete("DeleteBook")]
+        public async Task<IActionResult> Delete(Guid id)
         {
-            var result = _deleteBookCommandHandler.Handle(command);
-
-            if (result.Success)
-                return Ok(command);
-
-            return BadRequest(result.Errors);
+            return Ok(await _bookService.DeleteBook(id));
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MyBookStore.Domain.Commands.Author;
+using MyBookStore.Application.Author;
 
 namespace MyBookStore.API.Controllers
 {
@@ -8,45 +8,18 @@ namespace MyBookStore.API.Controllers
     [ApiController]
     public class AuthorController : ControllerBase
     {
-        private readonly ICommandHandler<CreateAuthorCommand> _createAuthorCommandHandler;
-        private readonly ICommandHandler<UpdateAuthorCommand> _updateAuthorCommandHandler;
-        private readonly IAuthorQueries _authorQueries;
-
-        public AuthorController(ICommandHandler<CreateAuthorCommand> createAuthorCommandHandler,
-            ICommandHandler<UpdateAuthorCommand> updateAuthorCommandHandler,
-            IAuthorQueries authorQueries)
+        private readonly IAuthorService _authorService;
+        public AuthorController(IAuthorService authorService)
         {
-            _createAuthorCommandHandler = createAuthorCommandHandler;
-            _updateAuthorCommandHandler = updateAuthorCommandHandler;
-            _authorQueries = authorQueries;
+           _authorService = authorService;
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(_authorQueries.GetAllAsync().Result);
+            return Ok(await _authorService.GetAllAuthors());
         }
 
-        [HttpPost]
-        public IActionResult Post(CreateAuthorCommand command)
-        {
-            var result = _createAuthorCommandHandler.Handle(command);
-
-            if (result.Success)
-                return Ok(command);
-
-            return BadRequest(result.Errors);
-        }
-
-        [HttpPut]
-        public IActionResult Put(UpdateAuthorCommand command)
-        {
-            var result = _updateAuthorCommandHandler.Handle(command);
-
-            if (result.Success)
-                return Ok(command);
-
-            return BadRequest(result.Errors);
-        }
+        
     }
 }
