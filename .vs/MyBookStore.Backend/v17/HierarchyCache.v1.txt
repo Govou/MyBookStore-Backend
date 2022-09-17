@@ -1,0 +1,260 @@
+﻿++Solution 'MyBookStore.Backend' ‎(7 of 7 projects)
+i:{00000000-0000-0000-0000-000000000000}:MyBookStore.Backend.sln
+++MyBookStore.Domain
+i:{00000000-0000-0000-0000-000000000000}:MyBookStore.Domain
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.domain\mybookstore.domain.csproj
+++Dependencies
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:>510
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:>575
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:>473
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:>470
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:>511
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:>512
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:>513
+++Analyzers
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:analyzers
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:analyzers
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:analyzers
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:analyzers
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:analyzers
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:analyzers
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:analyzers
+++Frameworks
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:frameworks
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:frameworks
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:frameworks
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:frameworks
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:frameworks
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:frameworks
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:frameworks
+++Packages
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:packages
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:packages
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:packages
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:packages
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:packages
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:packages
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:packages
+++FluentValidation (11.2.2)
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:>713
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:>620
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:>755
+++FluentValidation.AspNetCore (11.2.2)
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:>711
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:>618
+++FluentValidation.DependencyInjectionExtensions (11.2.2)
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:>712
+++Projects
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:projects
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:projects
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:projects
+++Entities
+++ValueObjects
+++Publication.cs
+++Author.cs
+++Book.cs
+++Publisher.cs
+++Validators
+++AuthorValidators.cs
+++BookValidators.cs
+++PublisherValidators.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.domain\microsoft.netcore.app
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\microsoft.netcore.app
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.application\microsoft.netcore.app
+i:{2d3464e6-46b9-40ee-b353-f78d9b07cda2}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.core\microsoft.netcore.app
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.infrastructure\microsoft.netcore.app
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.application.tests\microsoft.netcore.app
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.domain.tests\microsoft.netcore.app
+++MyBookStore.Core
+i:{00000000-0000-0000-0000-000000000000}:MyBookStore.Core
+i:{26bd26a3-1862-4a40-a0ce-04557b8bad56}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.core\mybookstore.core.csproj
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.core\mybookstore.core.csproj
+++MyBookStore.API
+i:{00000000-0000-0000-0000-000000000000}:MyBookStore.API
+++Connected Services 
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:>576
+++Properties
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\properties\
+++Controllers
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\controllers\
+++AuthorController.cs
+++BookController.cs
+++PublisherController.cs
+++appsettings.json
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\appsettings.json
+++Dockerfile
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\dockerfile
+++Program.cs
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\program.cs
+++No service dependencies discovered
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:>577
+++launchSettings.json
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\properties\launchsettings.json
+++appsettings.Development.json
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\appsettings.development.json
+++.dockerignore
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\.dockerignore
+++Microsoft.AspNetCore.Analyzers
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\microsoft.aspnetcore.app
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.14.0)
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:>635
+++Swashbuckle.AspNetCore (6.2.3)
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:>634
+++MyBookStore.Application
+i:{00000000-0000-0000-0000-000000000000}:MyBookStore.Application
+++Author
+++AuthorService.cs
+++IAuthorService.cs
+++AutoMapper
+++Mapper.cs
+++Book
+++BookService.cs
+++IBookService.cs
+++Publisher
+++IPublisherService.cs
+++PublisherService.cs
+++AutoMapper (11.0.1)
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:>623
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:>622
+++Entity
+++Entity.cs
+++IEntity.cs
+++MyBookStore.Infrastructure
+i:{00000000-0000-0000-0000-000000000000}:MyBookStore.Infrastructure
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.infrastructure\bin\debug\net6.0\mybookstore.infrastructure.dll
+++Configurations
+++AuthorConfiguration.cs
+++BookConfiguration.cs
+++PublisherConfiguration.cs
+++Context
+++BookStoreContext.cs
+++Interfaces
+++Repositories
+++IAuthorRepository.cs
+++IBookRepository.cs
+++IPublisherRepository.cs
+++AuthorRepository.cs
+++BookRepository.cs
+++PublisherRepository.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:c:\users\kehindeguvoeke\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{3129e945-16a2-4f4f-be21-c96fe93e5629}:c:\users\kehindeguvoeke\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.EntityFrameworkCore (6.0.9)
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:>683
+++System.Configuration.ConfigurationManager (6.0.1)
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:>690
+++Tests
+i:{00000000-0000-0000-0000-000000000000}:Tests
+++MyBookStore.Application.Tests
+i:{7dd4f542-7a4d-4359-b89d-952041dcc0dc}:MyBookStore.Application.Tests
+++UnitTest1.cs
+++xunit.analyzers
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:c:\users\kehindeguvoeke\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:c:\users\kehindeguvoeke\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++coverlet.collector (3.1.0)
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:>597
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:>587
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:>594
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:>584
+++xunit (2.4.1)
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:>595
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:>585
+++xunit.runner.visualstudio (2.4.3)
+i:{0962f7ef-a061-4cfe-9557-e902074b8723}:>596
+i:{55d486fc-85b1-4f42-92f2-b7f9559670ed}:>586
+++MyBookStore.Domain.Tests
+i:{7dd4f542-7a4d-4359-b89d-952041dcc0dc}:MyBookStore.Domain.Tests
+++SampleLibraryMyBookStore.Domain
+++Microsoft.EntityFrameworkCore.Design (6.0.9)
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:>752
+++Microsoft.EntityFrameworkCore.Tools (6.0.9)
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:>753
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.9)
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:>754
+++SampleLibraryMyBookStore.Core
+++Migrations
+++20220916135431_init.cs
+++BookStoreContextModelSnapshot.cs
+++20220916135431_init.Designer.cs
+++PublicationValidators.cs
+++NewFolder
+++DTOs
+++CreateAuthorDTO.cs
+++CreateBookDTO.cs
+++CreatePublisherDTO.cs
+++20220916143106_init.cs
+++20220916143106_init.Designer.cs
+++GetBookDTO.cs
+++GetAuthorDTO.cs
+++GetPublisherDTO.cs
+++Common
+++ApiCommonResponse.cs
+++UpdateBookDTO.cs
+++20220916173140_updatededwithDelete.cs
+++20220916173140_updatededwithDelete.Designer.cs
+++New Text Document.txt
+++docker-compose.yml
+++Microsoft.EntityFrameworkCore.InMemory (6.0.9)
+i:{f571a36b-b329-43d3-863e-8aac6450f9df}:>2080
+++Migrations.Dockerfile
+++Setup.sh
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.9)
+++WeatherForecastController.cs
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\controllers\weatherforecastcontroller.cs
+++WeatherForecast.cs
+i:{cd7e06d7-eb69-45c0-95b6-d55d841f1880}:c:\users\kehindeguvoeke\documents\practisedev\hahn software project\mybookstore.backend\mybookstore.api\weatherforecast.cs
