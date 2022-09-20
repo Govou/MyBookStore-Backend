@@ -31,13 +31,9 @@ namespace MyBookStore.Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("Updated")
                         .HasColumnType("datetime2");
@@ -45,36 +41,6 @@ namespace MyBookStore.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Author");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("b10897b3-9922-4766-af8b-0578eb3b62dd"),
-                            Created = new DateTime(2022, 9, 16, 18, 31, 40, 106, DateTimeKind.Local).AddTicks(7857),
-                            IsDeleted = false,
-                            Name = "Stephen John"
-                        },
-                        new
-                        {
-                            Id = new Guid("94cb215c-c1fa-4e64-8329-e056b205989c"),
-                            Created = new DateTime(2022, 9, 16, 18, 31, 40, 106, DateTimeKind.Local).AddTicks(7859),
-                            IsDeleted = false,
-                            Name = "John Jake"
-                        },
-                        new
-                        {
-                            Id = new Guid("ef808cbd-16ac-464a-9be3-59faaa84e411"),
-                            Created = new DateTime(2022, 9, 16, 18, 31, 40, 106, DateTimeKind.Local).AddTicks(7860),
-                            IsDeleted = false,
-                            Name = "Paul Samuel"
-                        },
-                        new
-                        {
-                            Id = new Guid("b7a7a273-acd3-45ce-a861-179343e88384"),
-                            Created = new DateTime(2022, 9, 16, 18, 31, 40, 106, DateTimeKind.Local).AddTicks(7872),
-                            IsDeleted = false,
-                            Name = "Barry Mark"
-                        });
                 });
 
             modelBuilder.Entity("MyBookStore.Domain.Entities.Book", b =>
@@ -97,8 +63,7 @@ namespace MyBookStore.Infrastructure.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("Updated")
                         .HasColumnType("datetime2");
@@ -121,13 +86,9 @@ namespace MyBookStore.Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("Updated")
                         .HasColumnType("datetime2");
@@ -135,36 +96,6 @@ namespace MyBookStore.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Publisher");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("8b334f51-4d03-4eba-a572-bccc0cb441dd"),
-                            Created = new DateTime(2022, 9, 16, 18, 31, 40, 106, DateTimeKind.Local).AddTicks(7729),
-                            IsDeleted = false,
-                            Name = "MichaelLuke"
-                        },
-                        new
-                        {
-                            Id = new Guid("25775c65-c715-43e4-ab3a-b6f8b821e786"),
-                            Created = new DateTime(2022, 9, 16, 18, 31, 40, 106, DateTimeKind.Local).AddTicks(7784),
-                            IsDeleted = false,
-                            Name = "BrianKay"
-                        },
-                        new
-                        {
-                            Id = new Guid("e1dfbacd-94b8-4e99-8b83-fb566024d7d1"),
-                            Created = new DateTime(2022, 9, 16, 18, 31, 40, 106, DateTimeKind.Local).AddTicks(7785),
-                            IsDeleted = false,
-                            Name = "NeoLake"
-                        },
-                        new
-                        {
-                            Id = new Guid("2284e13d-f7b6-4d3e-9b68-b8e1a9fe2016"),
-                            Created = new DateTime(2022, 9, 16, 18, 31, 40, 106, DateTimeKind.Local).AddTicks(7786),
-                            IsDeleted = false,
-                            Name = "HammerRio"
-                        });
                 });
 
             modelBuilder.Entity("MyBookStore.Domain.Entities.Book", b =>
@@ -181,31 +112,7 @@ namespace MyBookStore.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.OwnsOne("MyBookStore.Domain.Entities.Validators.Entities.ValueObjects.Publication", "Publication", b1 =>
-                        {
-                            b1.Property<Guid>("BookId")
-                                .HasColumnType("uniqueidentifier");
-
-                            b1.Property<int>("Edition")
-                                .HasColumnType("int")
-                                .HasColumnName("Edition");
-
-                            b1.Property<int>("Year")
-                                .HasColumnType("int")
-                                .HasColumnName("Year");
-
-                            b1.HasKey("BookId");
-
-                            b1.ToTable("Book");
-
-                            b1.WithOwner()
-                                .HasForeignKey("BookId");
-                        });
-
                     b.Navigation("Author");
-
-                    b.Navigation("Publication")
-                        .IsRequired();
 
                     b.Navigation("Publisher");
                 });

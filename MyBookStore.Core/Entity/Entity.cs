@@ -11,11 +11,11 @@ namespace MyBookStore.Core.Entity
         public Guid Id { get; set; }
         public DateTime Created { get; set; } = DateTime.Now;
         public DateTime? Updated { get; set; }
-        public bool IsDeleted { get; set; }
 
         protected Entity()
         {
             Id = Guid.NewGuid();
+
         }
 
         public override bool Equals(object obj)

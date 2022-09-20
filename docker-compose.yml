@@ -1,26 +1,32 @@
-version: '3.4'
+version: '3.8'
 
 services:
-  mybookstoreapi:
-    image: mybookstoreapi
-    build:
-      context: .
-      dockerfile: Dockerfile
+  ms-sql-server:
+    image:  mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+
     ports:
-      - "9080:80"
-    depends_on: 
-      - migrations
-      - db
-  db:
-    image: mcr.microsoft.com/mssql/server:2019-latest
+      - "4454:1433"
+    
     environment:
-      SA_PASSWORD: "Password@12345"
       ACCEPT_EULA: "Y"
-    ports:
-    - "14331:1433"
-    depends_on: 
-      - migrations
-  migrations:
+      SA_PASSWORD: "Pa55w0rd2022"
+      MSSQL_PID: Express
+      
+
+  webapp:
     build: 
       context: .
-      dockerfile: Migrations.Dockerfile
+      dockerfile: Dockerfile
+      
+    environment:
+      - DBHOST=ms-sql-server
+      - DBPORT=1433
+      - DBUSER=SA
+      - DBPASSWORD=Pa55w0rd2022
+      - DBNAME=MyBookStore
+
+    ports:
+      - "8888:80"
+      
+    restart: always
+     

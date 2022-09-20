@@ -1,0 +1,12 @@
+C:\app\build\MyBookStore.Core.deps.json
+C:\app\build\MyBookStore.Core.dll
+C:\app\build\MyBookStore.Core.pdb
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Core\obj\Release\net6.0\MyBookStore.Core.csproj.AssemblyReference.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Core\obj\Release\net6.0\MyBookStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Core\obj\Release\net6.0\MyBookStore.Core.AssemblyInfoInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Core\obj\Release\net6.0\MyBookStore.Core.AssemblyInfo.cs
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Core\obj\Release\net6.0\MyBookStore.Core.csproj.CoreCompileInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Core\obj\Release\net6.0\MyBookStore.Core.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Core\obj\Release\net6.0\refint\MyBookStore.Core.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Core\obj\Release\net6.0\MyBookStore.Core.pdb
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Core\obj\Release\net6.0\ref\MyBookStore.Core.dll

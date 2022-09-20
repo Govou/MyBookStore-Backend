@@ -1,0 +1,15 @@
+C:\app\build\MyBookStore.Infrastructure.deps.json
+C:\app\build\MyBookStore.Infrastructure.runtimeconfig.json
+C:\app\build\MyBookStore.Infrastructure.dll
+C:\app\build\MyBookStore.Infrastructure.pdb
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\MyBookStore.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\MyBookStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\MyBookStore.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\MyBookStore.Infrastructure.AssemblyInfo.cs
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\MyBookStore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\MyBookStore.Infrastructure.csproj.CopyComplete
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\MyBookStore.Infrastructure.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\refint\MyBookStore.Infrastructure.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\MyBookStore.Infrastructure.pdb
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\MyBookStore.Infrastructure.genruntimeconfig.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Infrastructure\obj\Release\net6.0\ref\MyBookStore.Infrastructure.dll

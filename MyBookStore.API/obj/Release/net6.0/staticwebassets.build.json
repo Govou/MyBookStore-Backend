@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZAMLaEoY0iar9HI8CIWykYQjQGYpc8MfBZtkCtlXUXo=",
+  "Source": "MyBookStore.API",
+  "BasePath": "_content/MyBookStore.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

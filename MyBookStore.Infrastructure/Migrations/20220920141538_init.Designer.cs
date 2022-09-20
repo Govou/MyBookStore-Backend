@@ -12,7 +12,7 @@ using MyBookStore.Infrastructure.Context;
 namespace MyBookStore.Infrastructure.Migrations
 {
     [DbContext(typeof(BookStoreContext))]
-    [Migration("20220916143106_init")]
+    [Migration("20220920141538_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,8 +35,7 @@ namespace MyBookStore.Infrastructure.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("Updated")
                         .HasColumnType("datetime2");
@@ -44,32 +43,6 @@ namespace MyBookStore.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Author");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("40cd8559-7d8c-420d-9c91-d9388a1eca96"),
-                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Stephen John"
-                        },
-                        new
-                        {
-                            Id = new Guid("9bf843c5-812f-4802-a954-e630ddec14ef"),
-                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "John Jake"
-                        },
-                        new
-                        {
-                            Id = new Guid("ad11b7fe-85b6-41da-a9e9-6c2bc4f01e98"),
-                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Paul Samuel"
-                        },
-                        new
-                        {
-                            Id = new Guid("d1ebe72c-dffb-4dc8-9c2f-a39f16cf9186"),
-                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Barry Mark"
-                        });
                 });
 
             modelBuilder.Entity("MyBookStore.Domain.Entities.Book", b =>
@@ -84,13 +57,15 @@ namespace MyBookStore.Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<Guid>("PublisherId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("Updated")
                         .HasColumnType("datetime2");
@@ -115,8 +90,7 @@ namespace MyBookStore.Infrastructure.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("Updated")
                         .HasColumnType("datetime2");
@@ -124,32 +98,6 @@ namespace MyBookStore.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Publisher");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("4651db58-8f51-4fbe-b899-785d9bf6c410"),
-                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "MichaelLuke"
-                        },
-                        new
-                        {
-                            Id = new Guid("b9403eb7-fadd-4df8-b851-ac1a2398e719"),
-                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "BrianKay"
-                        },
-                        new
-                        {
-                            Id = new Guid("6fe4a4e2-93fc-498c-9f63-d29f8c7d219b"),
-                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "NeoLake"
-                        },
-                        new
-                        {
-                            Id = new Guid("fd0a7355-d1af-40cb-a962-e98ace78d029"),
-                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "HammerRio"
-                        });
                 });
 
             modelBuilder.Entity("MyBookStore.Domain.Entities.Book", b =>
@@ -166,31 +114,7 @@ namespace MyBookStore.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.OwnsOne("MyBookStore.Domain.Entities.Validators.Entities.ValueObjects.Publication", "Publication", b1 =>
-                        {
-                            b1.Property<Guid>("BookId")
-                                .HasColumnType("uniqueidentifier");
-
-                            b1.Property<int>("Edition")
-                                .HasColumnType("int")
-                                .HasColumnName("Edition");
-
-                            b1.Property<int>("Year")
-                                .HasColumnType("int")
-                                .HasColumnName("Year");
-
-                            b1.HasKey("BookId");
-
-                            b1.ToTable("Book");
-
-                            b1.WithOwner()
-                                .HasForeignKey("BookId");
-                        });
-
                     b.Navigation("Author");
-
-                    b.Navigation("Publication")
-                        .IsRequired();
 
                     b.Navigation("Publisher");
                 });

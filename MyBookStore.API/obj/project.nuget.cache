@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZMk1YE/u08qUblxFnZKKky/mLJjJEYgP4qEmdMbZdxOEN/pPgCrjgFV0D34jqYm9Sta9jzORRcj2QUqLBq5j4w==",
+  "dgSpecHash": "XyaCLXle6x/NiB57GgVCHz+Tbr+S9+P4NEeR+dRYY/rHI+wZaCx1UUFbZxNY4+uiJrtoA8zzdDYJ+eaSRvgzrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\KehindeGuvoeke\\Documents\\PractiseDev\\Hahn Software Project\\MyBookStore.Backend\\MyBookStore.API\\MyBookStore.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.2\\fluentvalidation.dependencyinjectionextensions.11.2.2.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.9\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.9\\microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.9\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -22,6 +23,7 @@
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.9\\microsoft.entityframeworkcore.inmemory.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.9\\microsoft.entityframeworkcore.relational.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.9\\microsoft.entityframeworkcore.sqlserver.6.0.9.nupkg.sha512",
+    "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.9\\microsoft.entityframeworkcore.tools.6.0.9.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\KehindeGuvoeke\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",

@@ -1,0 +1,13 @@
+C:\app\build\MyBookStore.Application.deps.json
+C:\app\build\MyBookStore.Application.dll
+C:\app\build\MyBookStore.Application.pdb
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\MyBookStore.Application.csproj.AssemblyReference.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\MyBookStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\MyBookStore.Application.AssemblyInfoInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\MyBookStore.Application.AssemblyInfo.cs
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\MyBookStore.Application.csproj.CoreCompileInputs.cache
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\MyBookStore.Application.csproj.CopyComplete
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\MyBookStore.Application.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\refint\MyBookStore.Application.dll
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\MyBookStore.Application.pdb
+C:\Users\KehindeGuvoeke\Documents\PractiseDev\Hahn Software Project\MyBookStore.Backend\MyBookStore.Application\obj\Release\net6.0\ref\MyBookStore.Application.dll

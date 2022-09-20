@@ -3,21 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBookStore.API", "MyBookStore.API\MyBookStore.API.csproj", "{CD7E06D7-EB69-45C0-95B6-D55D841F1880}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBookStore.API", "MyBookStore.API\MyBookStore.API.csproj", "{CD7E06D7-EB69-45C0-95B6-D55D841F1880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBookStore.Application", "MyBookStore.Application\MyBookStore.Application.csproj", "{3129E945-16A2-4F4F-BE21-C96FE93E5629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBookStore.Application", "MyBookStore.Application\MyBookStore.Application.csproj", "{3129E945-16A2-4F4F-BE21-C96FE93E5629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBookStore.Core", "MyBookStore.Core\MyBookStore.Core.csproj", "{2D3464E6-46B9-40EE-B353-F78D9B07CDA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBookStore.Core", "MyBookStore.Core\MyBookStore.Core.csproj", "{2D3464E6-46B9-40EE-B353-F78D9B07CDA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBookStore.Domain", "MyBookStore.Domain\MyBookStore.Domain.csproj", "{26BD26A3-1862-4A40-A0CE-04557B8BAD56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBookStore.Domain", "MyBookStore.Domain\MyBookStore.Domain.csproj", "{26BD26A3-1862-4A40-A0CE-04557B8BAD56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBookStore.Infrastructure", "MyBookStore.Infrastructure\MyBookStore.Infrastructure.csproj", "{F571A36B-B329-43D3-863E-8AAC6450F9DF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7DD4F542-7A4D-4359-B89D-952041DCC0DC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBookStore.Application.Tests", "MyBookStore.Application.Tests\MyBookStore.Application.Tests.csproj", "{0962F7EF-A061-4CFE-9557-E902074B8723}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBookStore.Domain.Tests", "MyBookStore.Domain.Tests\MyBookStore.Domain.Tests.csproj", "{55D486FC-85B1-4F42-92F2-B7F9559670ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBookStore.Infrastructure", "MyBookStore.Infrastructure\MyBookStore.Infrastructure.csproj", "{F571A36B-B329-43D3-863E-8AAC6450F9DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,21 +39,9 @@ Global
 		{F571A36B-B329-43D3-863E-8AAC6450F9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F571A36B-B329-43D3-863E-8AAC6450F9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F571A36B-B329-43D3-863E-8AAC6450F9DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0962F7EF-A061-4CFE-9557-E902074B8723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0962F7EF-A061-4CFE-9557-E902074B8723}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0962F7EF-A061-4CFE-9557-E902074B8723}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0962F7EF-A061-4CFE-9557-E902074B8723}.Release|Any CPU.Build.0 = Release|Any CPU
-		{55D486FC-85B1-4F42-92F2-B7F9559670ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55D486FC-85B1-4F42-92F2-B7F9559670ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55D486FC-85B1-4F42-92F2-B7F9559670ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55D486FC-85B1-4F42-92F2-B7F9559670ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{0962F7EF-A061-4CFE-9557-E902074B8723} = {7DD4F542-7A4D-4359-B89D-952041DCC0DC}
-		{55D486FC-85B1-4F42-92F2-B7F9559670ED} = {7DD4F542-7A4D-4359-B89D-952041DCC0DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADC01FBF-D4C5-46DD-BF5D-EE40DF3F9F4E}

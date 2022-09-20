@@ -1,5 +1,8 @@
-﻿namespace MyBookStore.Domain.Entities.Validators.Entities.ValueObjects
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MyBookStore.Domain.Entities.Validators.Entities.ValueObjects
 {
+    [NotMapped]
     public class Publication
     {
         public int Edition { get;  set; }
